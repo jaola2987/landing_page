@@ -1,0 +1,30 @@
+.advantages__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.advantages__title {
+  flex-basis: 50%;
+  max-width: 470px;
+}
+
+.advantages__list {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.advantages__list__item {
+  background: url('../img/Star5.svg');
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 16px;
+  padding-left: 32px;
+  font-size: 24px;
+  line-height: 130%;
+  text-transform: uppercase;
+}
